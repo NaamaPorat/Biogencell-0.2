@@ -1,0 +1,28 @@
+<mat-card class="example-card">
+  <img mat-card-sm-image [src]="person.pImageSrc" class="p-card-img" />
+  <mat-card-title-group>
+    <mat-card-title>
+      <span class="card-name-span">
+        {{ person.pName }}
+      </span>
+      <span class="card-title-span">
+        {{ person.pTitle }}
+      </span>
+      <br *ngIf="windowSize > 2 && !person.pTitle" class="pTitle-replacement" />
+    </mat-card-title>
+    <!-- <mat-card-title>{{ person.pTitle }}</mat-card-title> -->
+    <mat-card-subtitle>{{ person.pSubTitle }}</mat-card-subtitle>
+  </mat-card-title-group>
+  <mat-card-content>
+    {{ person.pShortDesc }}
+  </mat-card-content>
+  <p class="read-more-btn">
+    <button
+      mat-raised-button
+      color="primary"
+      routerLink="/p/{{ person.pUrlId }}"
+    >
+      Read more
+    </button>
+  </p>
+</mat-card>

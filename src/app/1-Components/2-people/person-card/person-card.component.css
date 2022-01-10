@@ -1,0 +1,126 @@
+mat-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+::ng-deep .mat-card {
+  border: 1px solid #c5acac !important;
+  /* border-radius: 20px !important; */
+}
+
+.p-card-img {
+  width: 120px;
+  height: auto;
+  position: relative;
+  top: -15px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 2px 2px 5px 0px rgb(133, 131, 131);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(133, 131, 131);
+  box-shadow: 2px 2px 5px 0px rgba(133, 131, 131);
+  border-radius: 100px;
+}
+.mat-card-title-group {
+  position: relative;
+  top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.card-title-span {
+  font-weight: 500;
+  display: block;
+  /* margin: -15px; */
+}
+.pTitle-replacement {
+  content: "";
+  height: 30px;
+  display: block;
+  font-size: 90%;
+}
+mat-card-content {
+  position: relative;
+  font-size: medium;
+  top: -30px;
+  flex-grow: 1;
+  height: 40px;
+}
+
+mat-card .read-more-btn {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+/* window-size 0 */
+@media only screen and (max-width: 200px) {
+  .card-title-span {
+    font-size: large;
+  }
+  mat-card-subtitle {
+    font-size: small;
+    height: min-content;
+  }
+  mat-card-content {
+    font-size: small;
+    height: min-content;
+  }
+}
+/* window-size 1 */
+@media only screen and (min-width: 201px) {
+  .card-title-span {
+    font-size: x-large;
+  }
+  mat-card-subtitle {
+    font-size: medium;
+    height: min-content;
+  }
+  mat-card-content {
+    font-size: medium;
+    height: min-content;
+  }
+}
+/* window-size 2 */
+@media only screen and (min-width: 481px) {
+  mat-card-subtitle {
+    font-size: medium;
+    height: min-content;
+  }
+  mat-card-content {
+    font-size: medium;
+    height: min-content;
+  }
+}
+/* window-size 3 */
+@media only screen and (min-width: 769px) {
+  mat-card-subtitle {
+    font-size: medium;
+    height: 20px;
+  }
+  mat-card-content {
+    height: 150px;
+  }
+  mat-card-title {
+    height: 60px;
+  }
+}
+/* window-size 4 */
+@media only screen and (min-width: 1301px) {
+  mat-card-content {
+    height: 100px;
+  }
+  mat-card-title {
+    height: fit-content;
+  }
+}

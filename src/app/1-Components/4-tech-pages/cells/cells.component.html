@@ -1,0 +1,424 @@
+<div class="cells-page-container">
+  <app-page-header
+    [pic]="'/assets/pageHeaders/cells.jpg'"
+    [title]="'Stem cells information'"
+  >
+  </app-page-header>
+
+  <div class="cells-container">
+    <div class="collapsers">
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title> WHAT ARE STEM CELLS? </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Stem cells are the foundation cells for every organ, tissue and cell
+            in the body. They are like a blank microchip that can ultimately be
+            programmed to perform particular tasks. Stem cells are
+            undifferentiated or “blank” cells that have not yet fully
+            specialized. Under proper conditions, stem cells begin to develop
+            into specialized tissues and organs. Additionally, stem cells can
+            self-renew, that is they can divide and give rise to more stem
+            cells.
+          </p>
+          <p>
+            There are many different types of stem cells. These include
+            embryonic stem cells that exist only at the earliest stages of
+            embryonic development; as embryonic stem cells can form all cell
+            types of the body, they are referred to as ‘pluripotent’ stem cells.
+            There are various types of ‘adult’ or ‘tissue-specific’ stem cells
+            that exist in a number of different fetal and adult tissues. These
+            stem cells generally can only form a limited number of cell types
+            corresponding with their tissues of origin; they are called
+            ‘multipotent’ stem cells.
+          </p>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title> WHERE DO STEM CELLS COME FROM? </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Embryonic stem cells are derived from the inner cell mass of a
+            blastocyst: the fertilized egg, called the zygote, divides and forms
+            two cells; each of these cells divides again, and so on. Soon there
+            is a hollow ball of about 150 cells called the blastocyst that
+            contains two types of cells, the trophoblast and the inner cell
+            mass. Embryonic stem cells are obtained from the inner cell mass.
+          </p>
+          <p>
+            Stem cells can also be found in small numbers in various tissues in
+            the fetal and adult body. For example, blood stem cells are found in
+            the bone marrow that give rise to all specialized blood cell types.
+            Such tissue-specific stem cells have not yet been identified in all
+            vital organs, and in some tissues like the brain, although stem
+            cells exist, they are not very active, and thus do not readily
+            respond to cell injury or damage.
+          </p>
+          <P
+            >Stem cells can also be obtained from other sources, for example,
+            the umbilical cord of a newborn baby is a source of blood stem
+            cells. Recently, scientists have also discovered the existence of
+            cells in baby teeth and in amniotic fluid that may also have the
+            potential to form multiple cell types. Research on these cells is at
+            a very early stage.
+          </P>
+          <P
+            >Recently, cells with properties similar to embryonic stem cells,
+            referred to as induced pluripotent stem cells (iPS cells) have been
+            engineered from somatic cells (see ‘What is are induced pluripotent
+            stem cells?’).
+          </P>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title> WHAT IS A STEM CELL LINE? </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            A stem cell line is a population of cells that can replicate
+            themselves for long periods of time in vitro, meaning outside of the
+            body. These cell lines are grown in incubators with specialized
+            growth factor-containing media (liquid food source), at a
+            temperature and oxygen/carbon dioxide mixture resembling that found
+            in the mammalian body.
+          </p></mat-expansion-panel
+        >
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title> WHAT IS AN EMBRYONIC STEM CELL? </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Embryonic stem cells are those grown from the cells that make up the
+            inner cell mass of the blastocyst. Embryonic stem cells have been
+            derived from a variety of animals, including human, and are
+            described as ‘pluripotent’- that is, they are capable of generating
+            any and all cells in the body under the right conditions.
+          </p>
+          <P
+            >Embryonic stem cell lines can be grown indefinitely in vitro if the
+            correct conditions are met. Importantly, these cells continue to
+            retain their ability to form different, specialized cell types once
+            they are removed from the conditions that keep them in an
+            undifferentiated, or unspecialized, state.
+          </P>
+          <P
+            >The most widely studied are mouse embryonic stem cells. Mouse
+            embryonic stem cells have taught us a lot about how pluripotent
+            cells grow and specialize, and how embryonic development works.
+            Indeed, mouse embryonic stem cells are a critical research tool for
+            studying the function of individual genes and modeling human
+            diseases. Mouse embryonic stem cells can be manipulated to contain
+            specific genetic changes then used to generate mice which contain
+            this change. Capecchi, Evans and Smithies were awarded the Nobel
+            Prize in Physiology or Medicine, 2007 for developing this process.
+          </P>
+          <P
+            >Human embryonic stem cells were isolated relatively recently, in
+            1998. They are more difficult to work with than their mouse
+            counterparts and currently less is known about them. However,
+            scientists are making remarkable progress, learning about human
+            developmental processes, modeling disease and establishing
+            strategies that could ultimately lead to therapies to replace or
+            restore damaged tissues using these human cells.
+          </P>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title>
+              WHAT IS AN ADULT (TISSUE-SPECIFIC) STEM CELL?
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Perhaps better referred to as a tissue-specific stem cell, these
+            cells are found in tissues that have already developed.
+            Tissue-specific stem cells can be isolated from many tissues,
+            including brain. The most common source of tissue-specific stem
+            cells is the bone marrow, located in the center of some bones. There
+            are different types of stem cells found in the bone marrow,
+            including hematopoietic or blood stem cells, endothelial stem cells,
+            and mesenchymal stem cells. It is well established that
+            hematopoietic stem cells form blood, that endothelial stem cells
+            form the vascular system (arteries and veins), and that mesenchymal
+            stem cells form bone, cartilage, muscle, fat, and fibroblasts.
+          </p>
+          <P
+            >While it has been theorized that some adult stem cells may have a
+            broader potential to form different cell types than was previously
+            suspected (for example, cells from the bone marrow may contribute to
+            regeneration of damaged livers, hearts and other organs), this is
+            highly controversial in the scientific community. Currently, it is
+            not clear whether stem cells from adult tissues or umbilical cord
+            blood are truly pluripotent. The comparison of human embryonic stem
+            cells to adult stem cells is currently a very active area of
+            research.
+          </P>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title>
+              WHAT ARE 'INDUCED PLURIPOTENT CELLS' OR IPS CELLS?
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Induced pluripotent cells (iPS cells) are non-pluripotent cells that
+            were engineered (‘induced’) to become pluripotent, that is, able to
+            form all cell types of the body. In other words, a cell with a
+            specialized function (for example a skin cell) was ‘reprogrammed’ to
+            an unspecialized state similar to that of an embryonic stem cell.
+            While iPS cells and embryonic stem cells share many characteristics
+            they are not identical.
+          </p>
+          <P
+            >The generation of mouse iPS cells was reported in 2006 Currently,
+            iPS cells are produced by inserting copies of three-four genes into
+            specialized cells known to be important in embryonic stem cells
+            using viruses. Different groups have used slightly different
+            combinations of genes. It is not completely understood how each of
+            these genes functions to confer pluripotency and ongoing research is
+            addressing this question.
+          </P>
+          <P
+            >The technology used to generate iPS cells holds great promise for
+            creating patient- and disease-specific cell lines for research
+            purposes. However, a great deal of work remains before these methods
+            can be used to generate stem cells suitable for safe and effective
+            therapies.</P
+          >
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title>
+              WHAT ARE THE POTENTIAL USES OF HUMAN STEM CELLS?
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Stem cell research contributes to a fundamental understanding of how
+            organisms develop and grow, and how tissues are maintained
+            throughout adult life. This is knowledge that is required to work
+            out what goes wrong during disease and injury and ultimately how
+            these conditions might be treated. The development of a range of
+            human tissue-specific and embryonic stem cell lines will provide
+            researchers with the tools to model disease, test drugs and develop
+            increasingly effective therapies.
+          </p>
+          <P
+            >Replacing diseased cells with healthy cells, a process called cell
+            therapy, is a promising use of stem cells in the treatment of
+            disease; this is similar to organ transplantation only the treatment
+            consists of transplanting cells instead of organs. Currently,
+            researchers are investigating the use of adult, fetal and embryonic
+            stem cells as a resource for various, specialized cell types, such
+            as nerve cells, muscle cells, blood cells and skin cells that can be
+            used to treat various diseases.
+          </P>
+          <P
+            >In theory, any condition in which there is tissue degeneration can
+            be a potential candidate for stem cell therapies, including
+            Parkinson’s disease, spinal cord injury, stroke, burns, heart
+            disease, Type 1 diabetes, osteoarthritis, rheumatoid arthritis,
+            muscular dystrophies and liver diseases. </P
+          ><P
+            >In addition, retinal regeneration with stem cells isolated from the
+            eyes can lead to a possible cure for damaged or diseased eyes and
+            may one day help reverse blindness. Bone marrow transplantation
+            (transfers blood stem cells) is a well-established treatment for
+            blood cancers and other blood disorders.
+          </P>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel
+          color="primary"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="specific-class">
+            <mat-panel-title>
+              WHAT ARE THE OBSTACLES THAT MUST BE OVECOME BEFORE THE POTENTIAL
+              USES OF STEM CELLS IN CELL THERAPY WILL BE REALIZED?
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+                {{ panelOpenState ? "Close" : "Read more" }}
+              </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>
+            Here are just a few of the challenges that lie ahead. Firstly, a
+            source of stem cells must be found. The process of identifying,
+            isolating and growing the right kind of stem cell, for example a
+            rare cell in the adult tissue, is painstaking. In general, embryonic
+            and fetal stem cells are believed to be more versatile than
+            tissue-specific stem cells. Secondly, once stem cells are identified
+            and isolated, the right conditions must be developed so that the
+            cells differentiate into the specialized cells required for a
+            particular therapy. This too will require a great deal of
+            experimentation. Thirdly, a system that delivers the cells to the
+            right part of the body must be developed and the cells once there
+            must be encouraged to integrate and function in concert with the
+            body’s natural cells. Furthermore, just as in organ transplants, the
+            body’s immune system must be suppressed to minimize the immune
+            reaction set off by the transplanted cells.
+          </p>
+          <P
+            >While results from animal models are promising, the research on
+            stem cells and their applications to treat various human diseases is
+            still at a preliminary stage. As with any medical treatment, a
+            rigorous research and testing process must be followed to ensure
+            long-term efficacy and safety.
+          </P>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <br *ngIf="windowSize < 3" />
+    <div class="links-container">
+      <div class="link-group">
+        <span class="link-group-title"> Web Sites </span>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://stemcells.nih.gov/"> Stem Cell Information (NIH)</a>
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="http://stemcelltracker.com/"> Stem Cell Tracker</a>
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a
+            href="https://www.sciencedaily.com/news/health_medicine/stem_cells/"
+          >
+            Stem Cell News</a
+          >
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://www.newscientist.com/article-topic/stem-cells/">
+            Stem Cells (New Scientist)</a
+          >
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://learn.genetics.utah.edu/">
+            Genetic Science Learning Center</a
+          >
+        </div>
+      </div>
+
+      <div class="link-group">
+        <span class="link-group-title"> Blogs & Forums </span>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://thestemcellblog.com/"> The Stem Cell </a>
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://repairstemcell.wordpress.com/">
+            The Stem Cell Blog</a
+          >
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a
+            href="https://www.sciencedaily.com/news/health_medicine/stem_cells/"
+          >
+            Stem Cell News</a
+          >
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://www.signalsblog.ca/"> Stem Cell Network</a>
+        </div>
+      </div>
+
+      <div class="link-group">
+        <span class="link-group-title"> Academic Resources </span>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://onlinelibrary.wiley.com/"> Stem Cells Journal </a>
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="http://www.stemcellsportal.com/"> Stem Cells Portal</a>
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="http://www.isscr.org/">
+            International Society for Stem Cell Research</a
+          >
+        </div>
+        <div class="link">
+          <mat-icon color="primary">link</mat-icon
+          ><a href="https://www.pubstemcell.com/">
+            Journal of Stem cells & Regenerative Medicine</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

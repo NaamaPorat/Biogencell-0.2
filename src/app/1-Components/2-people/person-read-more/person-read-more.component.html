@@ -1,0 +1,16 @@
+<div class="read-more-page-container">
+  <div class="read-more-container">
+    <div class="person-page-header">
+      <span class="pSubTitle-span">{{ person.pSubTitle }}</span>
+      <span class="name-span"
+        >{{ person.pSecondTitle }} {{ person.pName }}
+      </span>
+    </div>
+    <div class="read-more-main-container">
+      <img class="read-more-image" [src]="person.pImageSrc" />
+      <div class="read-more-longDesc">
+        <p *ngFor="let p of person.pLongDesc">{{ p }} <br /></p>
+      </div>
+    </div>
+  </div>
+</div>

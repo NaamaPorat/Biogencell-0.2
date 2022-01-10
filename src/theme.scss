@@ -1,0 +1,59 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+
+$biogencell: (
+  50: #ffffff,
+  100: #dde6f3,
+  200: #b4c9e4,
+  300: #7fa3d1,
+  400: #6992c9,
+  500: #5282c1,
+  600: #4072b4,
+  700: #38649d,
+  800: #305687,
+  900: #be212f,
+  A100: #ffffff,
+  A200: #dde6f3,
+  A400: #6992c9,
+  A700: #38649d,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: $black-87-opacity,
+    A200: $black-87-opacity,
+    A400: $black-87-opacity,
+    A700: white,
+  ),
+);
+$biogencell-primary: mat-palette($biogencell, 900);
+$biogencell-accent: mat-palette($mat-grey, 200);
+
+$biogencell-warn: mat-palette($mat-red);
+
+// light theme
+$biogencell-theme: mat-light-theme(
+  $biogencell-primary,
+  $biogencell-accent,
+  $biogencell-warn
+);
+
+@include angular-material-theme($biogencell-theme);
+
+// // dark theme
+// $candy-app-theme: mat-dark-theme(
+//   $biogencell-dark-primary,
+//   $biogencell-dark-accent,
+//   $biogencell-dark-warn
+// );
+// .dark-theme-mode {
+//   @include angular-material-theme($biogencell-dark-theme);
+// }

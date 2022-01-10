@@ -1,0 +1,29 @@
+<div class="board-page-container">
+  <app-page-header
+    [pic]="'/assets/pageHeaders/board.png'"
+    [title]="'Board of Directors'"
+  >
+  </app-page-header>
+
+  <div class="board-container">
+    <p class="board-page-headline">
+      <span class="red"> BioGenCell</span>
+      ’s board is led by a team of experts and professionals who have many years
+      of executive and technical experience in the biotechnology industry.
+    </p>
+    <br />
+    <br />
+    <div class="board-list">
+      <div class="board-list-line">
+        <app-person-card [person]="davidRaab"></app-person-card>
+        <app-person-card [person]="yael"></app-person-card>
+        <app-person-card [person]="nissimDarvish"></app-person-card>
+      </div>
+      <div class="board-list-line">
+        <app-person-card [person]="eyalPeleg"></app-person-card>
+        <app-person-card [person]="zeevMilbauer"></app-person-card>
+        <app-person-card [person]="nadavChen"></app-person-card>
+      </div>
+    </div>
+  </div>
+</div>

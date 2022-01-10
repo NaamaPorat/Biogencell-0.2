@@ -1,0 +1,89 @@
+<div class="home-page-container">
+  <div class="welcome-div">
+    <span class="welcome red">Welcome </span>
+    to the future of cell therapy
+  </div>
+  <div class="home-card first-card">
+    <img src="/assets/home/cells-animation.gif" />
+    <p>
+      <span class="title"><span class="red">BioGenCell</span>’s mission</span>
+      is to develop its innovative technology platform enabling the rapid
+      creation of easy-to-use, patient friendly and cost-effective treatments
+      for a wide range of degenerative, life threatening vascular diseases,
+      using highly standardised therapies derived from adult stem cells.
+
+      <button
+        *ngIf="windowSize === 0"
+        mat-raised-button
+        color="primary"
+        routerLink="/solution"
+      >
+        Read More
+      </button>
+      <button
+        *ngIf="windowSize > 0"
+        mat-raised-button
+        color="primary"
+        routerLink="/solution"
+      >
+        Explore our technology
+      </button>
+    </p>
+  </div>
+  <div class="home-card card-2">
+    <p>
+      <span class="title">Life with Quality of Life!</span>
+      Our dedication and passion enables us to embark on our mission to provide
+      safe, effective and accessible personalized treatment for the millions of
+      patients suffering from vascular diseases worldwide.
+      <button mat-raised-button color="primary" routerLink="/artical1/2">
+        Read More
+      </button>
+    </p>
+    <img src="/assets/home/1.jpg" />
+  </div>
+  <div class="home-card card-1">
+    <img src="/assets/home/2.jpg" />
+    <p>
+      <span class="title">The Power of TRACT </span>
+      <span>BioGenCell’s proprietary technology TRACT</span>
+      <span>(Tissue Regenerative Activated Cell Therapy)</span>
+      <span
+        >is based on an unprecedented combination of the power of immunology and
+        stem cell therapies to treat life-threatening diseases within a day in
+        every clinic.
+      </span>
+      <button mat-raised-button color="accent" routerLink="/solution">
+        Read More
+      </button>
+    </p>
+  </div>
+  <div class="home-card card-2">
+    <p>
+      <span class="title">Your Body is Your Own Medicine </span>
+      BioGenCell’s clinical trial in vascular diseases shows results exceeding
+      expectations in Critical Limb Ischemia patients.
+
+      <button mat-raised-button color="primary" routerLink="/artical1/6">
+        Read More
+      </button>
+    </p>
+    <img src="/assets/home/3.jpg" />
+  </div>
+  <div class="home-card card-1">
+    <img src="/assets/home/4.jpg" />
+    <p>
+      <span class="title">You Are in Good Hands </span>
+      <span>BioGenCell’s proprietary technology TRACT</span>
+      <span>(Tissue Regenerative Activated Cell Therapy)</span>
+      <span
+        >BioGenCell’s leading force integrates profound KOLs and seasoned
+        experts who have many years of executive, clinical and technical
+        experience in the biotechnology and pharmaceutical industry.
+      </span>
+      <button mat-raised-button color="accent" routerLink="/management">
+        Read More
+      </button>
+    </p>
+  </div>
+</div>

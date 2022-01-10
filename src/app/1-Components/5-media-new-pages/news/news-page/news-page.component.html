@@ -1,0 +1,51 @@
+<div class="news-page-container">
+  <app-page-header
+    [pic]="'/assets/pageHeaders/news2.jpg'"
+    [title]="'News & Updates'"
+  >
+  </app-page-header>
+
+  <div class="news-cards-container">
+    <div *ngIf="windowSize < 2" class="artical-group">
+      <app-news-card
+        *ngFor="let a of articalList"
+        [artical]="a"
+      ></app-news-card>
+    </div>
+    <div *ngIf="windowSize === 2" class="artical-group-container">
+      <div class="artical-group">
+        <app-news-card
+          *ngFor="let a of acticalGroup1_2"
+          [artical]="a"
+        ></app-news-card>
+      </div>
+      <div class="artical-group">
+        <app-news-card
+          *ngFor="let a of acticalGroup2_2"
+          [artical]="a"
+        ></app-news-card>
+      </div>
+    </div>
+
+    <div *ngIf="windowSize > 2" class="artical-group-container">
+      <div class="artical-group">
+        <app-news-card
+          *ngFor="let a of acticalGroup1_3"
+          [artical]="a"
+        ></app-news-card>
+      </div>
+      <div class="artical-group">
+        <app-news-card
+          *ngFor="let a of acticalGroup2_3"
+          [artical]="a"
+        ></app-news-card>
+      </div>
+      <div class="artical-group">
+        <app-news-card
+          *ngFor="let a of acticalGroup3_3"
+          [artical]="a"
+        ></app-news-card>
+      </div>
+    </div>
+  </div>
+</div>

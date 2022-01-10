@@ -1,0 +1,30 @@
+<!-- <div [ngClass]="'ws-'+{windowSize}"> -->
+<div class="header-container">
+  <div>
+    <a class="companyName" routerLink="/home">
+      <img class="toolbar-logo" src="/assets/cleanLogo.png" alt="logo" />
+    </a>
+  </div>
+  <div *ngIf="windowSize >= 2" class="header-nav">
+    <app-menu-links></app-menu-links>
+  </div>
+  <div *ngIf="windowSize < 2" class="side-nav-btn">
+    <button
+      *ngIf="!isDrawerOpen"
+      mat-button
+      class="small-mat-icon-button"
+      (click)="openDrawer()"
+    >
+      <mat-icon color="primary">menu</mat-icon>
+    </button>
+    <button
+      *ngIf="isDrawerOpen"
+      mat-button
+      class="small-mat-icon-button"
+      (click)="closeDrawer()"
+    >
+      <mat-icon color="primary">arrow_back</mat-icon>
+    </button>
+  </div>
+</div>
+<!-- </div> -->

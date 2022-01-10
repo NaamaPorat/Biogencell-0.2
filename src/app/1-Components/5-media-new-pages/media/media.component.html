@@ -1,0 +1,58 @@
+<div class="media-page-container">
+  <app-page-header [pic]="'/assets/pageHeaders/media.jpg'" [title]="'Media'">
+  </app-page-header>
+  <div class="media-container">
+    <div class="videos-container">
+      <iframe
+        [src]="safeSrc1"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
+      <iframe
+        [src]="safeSrc2"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
+      <iframe
+        [src]="safeSrc3"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
+      <iframe
+        [src]="safeSrc4"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="last-media-container">
+      <!-- <img
+        class="img-0"
+        *ngIf="windowSize === 0"
+        src="/assets/papers-media.jpeg"
+        alt=""
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        width="100%"
+      /> -->
+
+      <app-page-header
+        class="last-media"
+        [pic]="'/assets/papers-media.jpeg'"
+        [title]="'BioGenCell at paper'"
+      >
+      </app-page-header>
+      <button mat-raised-button color="primary" (click)="open()">
+        Read more
+      </button>
+    </div>
+  </div>
+</div>

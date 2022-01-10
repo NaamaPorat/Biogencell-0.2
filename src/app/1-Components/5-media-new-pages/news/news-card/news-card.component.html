@@ -1,0 +1,102 @@
+<div class="artical-card">
+  <div
+    *ngIf="artical.nGeneralLogos"
+    class="general-logo-header artical-card-header"
+  >
+    <img [src]="artical.nImageSrc" class="general-logo-img" />
+  </div>
+  <div
+    *ngIf="!artical.nGeneralLogos"
+    class="not-general-logo-header artical-card-header"
+  >
+    <img [src]="artical.nImageSrc" class="not-general-logo-img" />
+  </div>
+
+  <div class="artical-card-content">
+    <p class="card-title">{{ artical.nTitle }}</p>
+    <p class="card-short-d">{{ artical.nShortDesc }}</p>
+    <div class="bottom-line">
+      <p class="date">{{ artical.nDate }}</p>
+      <button
+        routerLink="/artical/{{ artical.nUrl }}"
+        mat-button
+        color="primary"
+      >
+        Read more
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="artical-card">
+  <div
+    *ngIf="artical.nGeneralLogos"
+    class="mat-card-header general-logo-header"
+  >
+    <img
+      *ngIf="artical.nGeneralLogos"
+      [src]="artical.nImageSrc"
+      class="general-logo-img"
+    />
+    <img *ngIf="!artical.nGeneralLogos" [src]="artical.nImageSrc" />
+  </div>
+
+  <div
+    *ngIf="!artical.nGeneralLogos"
+    class="mat-card-header not-general-logo-header"
+  >
+    <img
+      *ngIf="!artical.nGeneralLogos"
+      [src]="artical.nImageSrc"
+      class="not-general-logo-img"
+    />
+  </div>
+  <div class="mat-card-content">
+    <div class="mat-card-title">{{ artical.nTitle }}</div>
+    <p>
+      {{ artical.nShortDesc }}
+    </p>
+  </div>
+  <div class="mat-card-actions">
+    <button routerLink="/artical/{{ artical.nUrl }}" mat-button color="primary">
+      Read more
+    </button>
+  </div>
+  <p class="date">{{ artical.nDate }}</p>
+</div> -->
+<!-- <mat-card class="artical-card">
+  <mat-card-header *ngIf="artical.nGeneralLogos" class="general-logo-header">
+    <img
+      mat-card-image
+      *ngIf="artical.nGeneralLogos"
+      [src]="artical.nImageSrc"
+      class="general-logo-img" />
+    <img
+      mat-card-image
+      *ngIf="!artical.nGeneralLogos"
+      [src]="artical.nImageSrc"
+  /></mat-card-header>
+
+  <mat-card-header
+    *ngIf="!artical.nGeneralLogos"
+    class="not-general-logo-header"
+  >
+    <img
+      mat-card-image
+      *ngIf="!artical.nGeneralLogos"
+      [src]="artical.nImageSrc"
+    />
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card-title>{{ artical.nTitle }}</mat-card-title>
+    <p>
+      {{ artical.nShortDesc }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button routerLink="/artical/{{ artical.nUrl }}" mat-button color="primary">
+      Read more
+    </button>
+  </mat-card-actions>
+  <p class="date">{{ artical.nDate }}</p>
+</mat-card> -->

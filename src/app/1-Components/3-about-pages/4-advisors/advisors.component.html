@@ -1,0 +1,36 @@
+<div class="exp-page-container">
+  <app-page-header
+    [pic]="'/assets/pageHeaders/expert.jpg'"
+    [title]="'Expert Advisors'"
+  >
+  </app-page-header>
+
+  <div class="exp-container">
+    <p class="exp-page-headline">
+      <span class="red"> BioGenCell </span>
+      is supported by Key-Opinion leaders who gave their consent to serve as
+      advisors for the company. BioGenCell is supported by each of these experts
+      on scientific and business development issues as well as their important
+      referrals to colleagues and other contacts.
+    </p>
+    <br />
+    <br />
+    <div class="exp-list">
+      <div class="exp-list-line">
+        <app-person-card [person]="frankJVeith"></app-person-card>
+        <app-person-card [person]="davidJShulkin"></app-person-card>
+        <app-person-card [person]="martinGrajower"></app-person-card>
+      </div>
+      <div class="exp-list-line">
+        <app-person-card [person]="aaronCiechanover"></app-person-card>
+        <app-person-card [person]="shlomoBulvik"></app-person-card>
+        <app-person-card [person]="bruceBachenheimer"></app-person-card>
+      </div>
+      <div class="exp-list-line">
+        <app-person-card [person]="michaelFrogel"></app-person-card>
+        <app-person-card [person]="louisShenkman"></app-person-card>
+        <app-person-card [person]="markJNiven"></app-person-card>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,137 @@
+.cells-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cells-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after,
+.mat-expansion-panel-header-description,
+.mat-expansion-indicator::after {
+  color: #be212f;
+}
+.mat-expansion-panel-header.mat-expanded,
+.mat-expansion-panel-header {
+  font-size: small;
+  padding-bottom: 10px;
+  line-height: 1.2;
+  height: fit-content;
+}
+.mat-expansion-panel-header-description.mat-expanded,
+.mat-expansion-panel-header-description {
+  font-size: small;
+  line-height: 1.5;
+}
+
+::ng-deep .mat-expansion-panel-body {
+  font-size: small;
+  line-height: 1.5;
+}
+
+mat-expansion-panel,
+mat-expansion-panel-header {
+  margin-top: 10px;
+}
+
+.links-container {
+  font-size: small;
+  line-height: 1.5;
+}
+
+.link-group {
+  margin-bottom: 15px;
+}
+.link-group-title {
+  display: block;
+  color: #be212f;
+  font-size: medium;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+mat-icon {
+  margin-right: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #be212f;
+}
+
+a:active {
+  text-decoration: none;
+  color: #be212f;
+}
+
+/* window-size 0 */
+@media only screen and (max-width: 200px) {
+}
+/* window-size 1 */
+@media only screen and (min-width: 201px) {
+  .links-container {
+    font-size: smaller;
+    line-height: 1.5;
+  }
+  .link-group-title {
+    font-size: large;
+  }
+}
+/* window-size 2 */
+@media only screen and (min-width: 481px) {
+  .links-container {
+    font-size: medium;
+    line-height: 2;
+  }
+  mat-expansion-panel,
+  mat-expansion-panel-header {
+    margin-top: 15px;
+  }
+  .mat-expansion-panel-header.mat-expanded,
+  .mat-expansion-panel-header {
+    font-size: small;
+    font-weight: bold;
+    line-height: 2;
+  }
+  ::ng-deep .mat-expansion-panel-body {
+    font-size: medium;
+    line-height: 2;
+  }
+  .link-group-title {
+    font-size: x-large;
+  }
+}
+/* window-size 3 */
+@media only screen and (min-width: 769px) {
+  .cells-container {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    column-gap: 40px;
+    margin-top: 40px;
+  }
+  .mat-expansion-panel-header.mat-expanded,
+  .mat-expansion-panel-header {
+    font-size: medium;
+    font-weight: bold;
+    line-height: 2;
+  }
+}
+/* window-size 4 */
+@media only screen and (min-width: 1301px) {
+}

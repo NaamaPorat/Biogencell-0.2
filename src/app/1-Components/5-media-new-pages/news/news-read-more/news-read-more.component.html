@@ -1,0 +1,18 @@
+<div class="artical-read-more-container">
+  <div class="artical-page-header">
+    <img
+      *ngIf="!artical.nGeneralLogos"
+      class="artical-read-more-image"
+      [src]="artical.nImageSrc"
+    />
+    <span class="nTitle-span">{{ artical.nTitle }}</span>
+  </div>
+  <div class="artical-read-more-main-container">
+    <div class="artical-read-more-longDesc">
+      <p *ngFor="let p of artical.nLongDesc">{{ p }}</p>
+      <p *ngIf="artical.nLink">
+        Read more about it <a [href]="artical.nLink">here</a>
+      </p>
+    </div>
+  </div>
+</div>

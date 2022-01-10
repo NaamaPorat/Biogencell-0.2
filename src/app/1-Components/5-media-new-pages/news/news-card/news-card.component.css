@@ -1,0 +1,111 @@
+p {
+  line-height: 1.5;
+}
+.artical-card {
+  width: 95%;
+  border: rgb(190, 190, 190) solid 1px;
+  margin-top: 30px;
+}
+.artical-card-header {
+  width: 100%;
+}
+.general-logo-header {
+  background: linear-gradient(white 50%, rgb(173, 171, 171) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 5%;
+}
+.artical-card-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.bottom-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.general-logo-img {
+  max-width: 200px;
+}
+
+/* window-size 0 */
+@media only screen and (max-width: 200px) {
+  .card-title {
+    font-size: small;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .card-short-d {
+    font-size: x-small;
+    word-wrap: break-word;
+    color: rgb(145, 145, 145);
+    padding-left: 2%;
+  }
+  .date {
+    font-size: x-small;
+    padding-left: 2%;
+  }
+  .general-logo-img {
+    width: 80%;
+    margin: 10%;
+  }
+
+  .not-general-logo-img {
+    width: 90%;
+    margin: 5%;
+  }
+
+  button {
+    font-size: x-small;
+    /* margin-top: -10%;
+    margin-bottom: -7%; */
+  }
+}
+/* window-size 1 */
+@media only screen and (min-width: 201px) {
+  /* .artical-card-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  } */
+  .card-title {
+    font-size: medium;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .card-short-d {
+    font-size: small;
+    word-wrap: break-word;
+    color: rgb(145, 145, 145);
+    padding-left: 2%;
+  }
+  .date {
+    font-size: small;
+    padding-left: 2%;
+  }
+  .general-logo-img {
+    width: 80%;
+    margin: 10%;
+  }
+  .not-general-logo-img {
+    width: 90%;
+    margin: 5%;
+  }
+  .bottom-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* window-size 2 */
+@media only screen and (min-width: 481px) {
+}
+/* window-size 3 */
+@media only screen and (min-width: 769px) {
+}
+/* window-size 4 */
+@media only screen and (min-width: 1301px) {
+}

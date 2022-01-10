@@ -1,0 +1,31 @@
+<div class="management-page-container">
+  <app-page-header
+    [pic]="'/assets/pageHeaders/management.jpg'"
+    [title]="'Management Team'"
+  >
+  </app-page-header>
+
+  <div class="management-team-container">
+    <p class="management-page-headline">
+      <span class="red"> BioGenCell </span>
+      is led by a team of seasoned executives who have many years of executive
+      and technical experience in the biotechnology industry. The founding team
+      has a proven track record in the creation and manufacturing of
+      commercially available cellular products, which were proven safe and
+      beneficial for treating severe heart diseases and peripheral arterial
+      diseases.
+    </p>
+    <br />
+    <div class="management-team-lists">
+      <div class="management-team-group management-team-list-line-1">
+        <app-person-card [person]="yael"></app-person-card>
+        <app-person-card [person]="michaelBelkin"></app-person-card>
+        <app-person-card [person]="eyalPeleg"></app-person-card>
+      </div>
+      <div class="management-team-group management-team-list-line-2">
+        <app-person-card [person]="marcDechamps"></app-person-card>
+        <app-person-card [person]="michaelBarnea"></app-person-card>
+      </div>
+    </div>
+  </div>
+</div>

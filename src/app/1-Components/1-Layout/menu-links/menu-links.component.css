@@ -1,0 +1,17 @@
+/* window-size 0-1 */
+@media only screen and (max-width: 480px) {
+  nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+  }
+}
+/* window-size 2-4 */
+@media only screen and (min-width: 480px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
