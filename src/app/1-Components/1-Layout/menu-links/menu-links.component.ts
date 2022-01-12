@@ -13,11 +13,15 @@ export class MenuLinksComponent implements OnInit {
   public sidenav: MatSidenav;
   @Input()
   public isDrawerOpen: boolean;
+  @Input()
+  public windowSize: number;
 
   ngOnInit(): void {}
   public closeDrawer = (): void => {
-    this.sidenav.close();
-    this.isDrawerOpen = false;
-    store.dispatch(setIsDrawerOpenAction(false));
+    if (this.windowSize < 2) {
+      this.sidenav.close();
+      this.isDrawerOpen = false;
+      store.dispatch(setIsDrawerOpenAction(false));
+    }
   };
 }

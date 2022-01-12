@@ -169,7 +169,7 @@ davidJShulkin.pLongDesc = [
 davidJShulkin.pImageSrc = '/assets/profilePics/DJS.png';
 
 export const martinGrajower = new PersonModel();
-davidJShulkin.pUrlId = 'martin-grajower';
+martinGrajower.pUrlId = 'martin-grajower';
 
 martinGrajower.pName = 'Martin Grajower';
 // martin.pTitle = '';
@@ -197,7 +197,7 @@ aaronCiechanover.pLongDesc = [
 aaronCiechanover.pImageSrc = '/assets/profilePics/AC.jpg';
 
 export const shlomoBulvik = new PersonModel();
-shlomoBulvik.pUrlId = 'shlomo-Bulvik';
+shlomoBulvik.pUrlId = 'shlomo-bulvik';
 
 shlomoBulvik.pName = 'Shlomo Bulvik';
 // bulvik.pTitle = '';
@@ -250,7 +250,7 @@ louisShenkman.pShortDesc =
 louisShenkman.pLongDesc = [
   'Mr. Louis Shenkman, Professor of Medicine at Tel Aviv University, graduated from York University Medical School, was a Clinical Associate at the NIH and Attending Physician at Bellevue Hospital and University Hospital, Department of Medicine, New York University. He was chairman of medicine, Meir Hospital, Kfar Saba, and dean of the New York State/American Program of the Sackler School of Medicine, Tel Aviv University. He has conducted research in endocrinology and metabolism, authored over 130 peer-reviewed articles and served as coordinator of several FP7 European Union-funded projects, the latest, A novel nano-technological platform for pancreatic cancer diagnosis and therapy (FP7-NMP-2009- LARGE-3).He is the medical director of several medical high-tech companies in Israel.',
 ];
-louisShenkman.pImageSrc = '/assets/profilePics/MF.jpg';
+louisShenkman.pImageSrc = '/assets/profilePics/LS.jpg';
 
 export const michaelFrogel = new PersonModel();
 michaelFrogel.pUrlId = 'michael-frogel';
@@ -264,7 +264,7 @@ michaelFrogel.pShortDesc =
 michaelFrogel.pLongDesc = [
   'Dr. Frogel is a former Associate Professor of Pediatrics at the Albert Einstein College of Medicine, Principal Investigator for the New York City Pediatric Disaster Coalition (PDC) and Medical Director of the Pediatric Disaster Mental Health Initiative at Maimonides Medical Center. He has previously served as Chairman of Pediatrics at Nassau University Medical Center and Chief of General Pediatrics, Urgent Care and Emergency Medicine at Cohen Children’s Medical Center of the NSLIJ Health System.  Dr. Frogel’s main areas of interest are pediatric emergency preparedness, child advocacy, sports medicine and weight management, preventive pediatrics and stem cell research. He has received millions of dollars in grants and created special programs for Pediatric Urgent Care, Women Infants and Children (WIC, Nutrition), Childhood Obesity and Sports Medicine, Autism and Child Abuse during his extensive career in building healthcare systems. Since 2008 he has served as Principal Investigator for the NY City Department of Health, US Health and Human Services, PDC Grant encompassing pediatric emergency preparedness for New York City. Dr. Frogel is recognized as a world expert on Emergency and Disaster Preparedness. He coordinates a yearly course in Israel on Emergency Preparedness. He has frequently visited Israeli cities under attack and has spearheaded campaigns to build shelters at schools and playgrounds. Dr. Frogel is currently applying his expertise in HealthCare System Management to the development of a revolutionary stem cell treatment for vascular diseases that promises to regenerate blood vessels restore tissue function and return patients from disability to full function.',
 ];
-michaelFrogel.pImageSrc = '/assets/profilePics/LS.jpg';
+michaelFrogel.pImageSrc = '/assets/profilePics/MF.jpg';
 
 export const personsDataList: PersonModel[] = [
   yaelPorat,
