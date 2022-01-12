@@ -54,8 +54,6 @@ export class LayoutComponent implements OnInit, OnDestroy {
     this.unsubscribeMe = store.subscribe(() => {
       this.isDrawerOpen = store.getState().DrawerState.isDrawerOpen;
     });
-
-    // console.log(window.screen.width, window.innerWidth, this.windowSize);
   }
 
   @HostListener('window:resize', ['$event'])

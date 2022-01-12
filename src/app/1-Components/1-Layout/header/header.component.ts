@@ -18,9 +18,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.sidenav);
-  }
+  ngOnInit(): void {}
   public openDrawer() {
     this.sidenav.open();
     this.isDrawerOpen = true;

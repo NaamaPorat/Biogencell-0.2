@@ -14,12 +14,8 @@ export class MenuLinksComponent implements OnInit {
   @Input()
   public isDrawerOpen: boolean;
 
-  ngOnInit(): void {
-    console.log(this.sidenav);
-  }
+  ngOnInit(): void {}
   public closeDrawer = (): void => {
-    console.log('close');
-
     this.sidenav.close();
     this.isDrawerOpen = false;
     store.dispatch(setIsDrawerOpenAction(false));
