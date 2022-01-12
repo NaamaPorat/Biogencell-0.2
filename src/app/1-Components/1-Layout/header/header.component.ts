@@ -25,8 +25,6 @@ export class HeaderComponent implements OnInit {
     store.dispatch(setIsDrawerOpenAction(true));
   }
   public closeDrawer() {
-    console.log('close');
-
     this.sidenav.close();
     this.isDrawerOpen = false;
     store.dispatch(setIsDrawerOpenAction(false));

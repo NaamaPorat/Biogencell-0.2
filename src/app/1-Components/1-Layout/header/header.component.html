@@ -6,7 +6,7 @@
     </a>
   </div>
   <div *ngIf="windowSize >= 2" class="header-nav">
-    <app-menu-links></app-menu-links>
+    <app-menu-links [sidenav]="sidenav"></app-menu-links>
   </div>
   <div *ngIf="windowSize < 2" class="side-nav-btn">
     <button
