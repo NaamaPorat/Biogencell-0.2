@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { setIsDrawerOpenAction } from 'src/app/4-Redux/drawer-state';
 import store from 'src/app/4-Redux/store';
@@ -9,13 +9,19 @@ import store from 'src/app/4-Redux/store';
   styleUrls: ['./menu-links.component.css'],
 })
 export class MenuLinksComponent implements OnInit {
-  constructor() {}
   @Input()
   public sidenav: MatSidenav;
-  ngOnInit(): void {}
+  @Input()
+  public isDrawerOpen: boolean;
 
-  public closeDrawer() {
-    this.sidenav.close();
-    store.dispatch(setIsDrawerOpenAction(false));
+  ngOnInit(): void {
+    console.log(this.sidenav);
   }
+  public closeDrawer = (): void => {
+    console.log('close');
+
+    this.sidenav.close();
+    this.isDrawerOpen = false;
+    store.dispatch(setIsDrawerOpenAction(false));
+  };
 }

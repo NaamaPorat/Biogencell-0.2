@@ -12,7 +12,10 @@
         autosize
       >
         <mat-sidenav #sidenav mode="side">
-          <app-menu-links></app-menu-links>
+          <app-menu-links
+            [sidenav]="sidenav"
+            [isDrawerOpen]="isDrawerOpen"
+          ></app-menu-links>
         </mat-sidenav>
         <mat-sidenav-content>
           <!-- <button *ngIf="!isDrawerOpen" mat-raised-button (click)="openDrawer()">
