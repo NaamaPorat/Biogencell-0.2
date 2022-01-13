@@ -8,6 +8,7 @@
 .drawer-container,
 mat-sidenav-container {
   height: 400px;
+  position: unset !important;
 }
 
 /* window-size 0 */
