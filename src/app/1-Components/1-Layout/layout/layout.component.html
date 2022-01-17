@@ -1,11 +1,10 @@
 <div class="layout-container">
   <app-header
     [isDrawerOpen]="isDrawerOpen"
-    [sidenav]="sidenav"
     [windowSize]="windowSize"
   ></app-header>
   <div class="main-layout-container display-nav">
-    <div class="drawer-container">
+    <!-- <div class="drawer-container">
       <mat-sidenav-container
         class="example-container display-nav"
         [hasBackdrop]="false"
@@ -19,15 +18,15 @@
           ></app-menu-links>
         </mat-sidenav>
         <mat-sidenav-content>
-          <!-- <button *ngIf="!isDrawerOpen" mat-raised-button (click)="openDrawer()">
+         <button *ngIf="!isDrawerOpen" mat-raised-button (click)="openDrawer()">
             <mat-icon color="primary">menu</mat-icon>
         </button>
         <button *ngIf="isDrawerOpen" mat-raised-button (click)="closeDrawer()">
             Toggle drawer
-        </button> -->
+        </button> 
         </mat-sidenav-content>
       </mat-sidenav-container>
-    </div>
+    </div> -->
     <router-outlet></router-outlet>
   </div>
   <app-footer></app-footer>

@@ -1,0 +1,52 @@
+.mobile-nav-container,
+mat-accordion,
+::ng-deep .mat-expansion-panel-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+::ng-deep .mat-expansion-panel-body {
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+mat-panel-title {
+  width: max-content;
+}
+a {
+  margin-left: -5px;
+}
+
+::ng-deep .specific-class > .mat-expansion-indicator:after,
+.mat-expansion-panel-header-description,
+.mat-expansion-indicator::after {
+  color: #be212f;
+}
+
+.mat-expansion-panel-header.mat-expanded,
+.mat-expansion-panel-header {
+  font-size: small;
+  padding-bottom: 10px;
+  /* line-height: 1.2; */
+  height: fit-content;
+  width: min-content;
+}
+.mat-expansion-panel-header-description.mat-expanded,
+.mat-expansion-panel-header-description {
+  font-size: small;
+  /* line-height: 1.5; */
+}
+
+mat-expansion-panel,
+mat-expansion-panel-header {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+.mat-expansion-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.panel-title {
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+<div class="mobile-nav-container">
+  <a mat-button color="primary" routerLink="/home">Home</a>
+  <mat-accordion>
+    <mat-expansion-panel
+      (opened)="isDrawerOpen = true"
+      (closed)="isDrawerOpen = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <p class="red panel-title">About</p>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a mat-button color="primary" routerLink="/company">Company</a>
+      <a mat-button color="primary" routerLink="/management">Management</a>
+      <a mat-button color="primary" routerLink="/board">Board Of Directors</a>
+      <a mat-button color="primary" routerLink="/experts">Expert Advisors</a>
+      <a mat-button color="primary" routerLink="/partners">Partners</a>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="isDrawerOpen = true"
+      (closed)="isDrawerOpen = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <p class="red panel-title">Technology</p>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a mat-button color="primary" routerLink="/solution">Our Solution</a>
+      <a mat-button color="primary" routerLink="/stem-cells">Stem Cells</a>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="isDrawerOpen = true"
+      (closed)="isDrawerOpen = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <p class="red panel-title">Media & News</p>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <a mat-button color="primary" routerLink="/media">Media</a>
+      <a mat-button color="primary" routerLink="/news">News</a>
+    </mat-expansion-panel>
+  </mat-accordion>
+  <a mat-button color="primary" routerLink="/contact-us">Contact Us</a>
+</div>

@@ -36,6 +36,7 @@ import { SolutionComponent } from './1-Components/4-tech-pages/solution/solution
 import { CellsComponent } from './1-Components/4-tech-pages/cells/cells.component';
 import { ContactUsComponent } from './1-Components/7-contact-us-page/contact-us.component';
 import { FooterComponent } from './1-Components/1-Layout/footer/footer.component';
+import { MobileLinkMenuComponent } from './1-Components/1-Layout/mobile-link-menu/mobile-link-menu.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { FooterComponent } from './1-Components/1-Layout/footer/footer.component
     CellsComponent,
     ContactUsComponent,
     FooterComponent,
+    MobileLinkMenuComponent,
   ],
   imports: [
     BrowserModule,

@@ -18,7 +18,7 @@ import { Unsubscribe } from 'redux';
   styleUrls: ['./layout.component.css'],
 })
 export class LayoutComponent implements OnInit, OnDestroy {
-  @ViewChild('sidenav') public sidenav: MatSidenav;
+  // @ViewChild('sidenav') public sidenav: MatSidenav;
 
   constructor(private drawerService: SideDrawerService) {}
   public windowSize: number;
@@ -81,16 +81,16 @@ export class LayoutComponent implements OnInit, OnDestroy {
       this.windowSize = 4;
     }
     store.dispatch(setWindowSizeAction(this.windowSize));
-    if (this.windowSize >= 2) {
-      this.sidenav.close();
-      this.isDrawerOpen = false;
-      store.dispatch(setIsDrawerOpenAction(false));
-    }
+    // if (this.windowSize >= 2) {
+    //   this.sidenav.close();
+    //   this.isDrawerOpen = false;
+    //   store.dispatch(setIsDrawerOpenAction(false));
+    // }
   }
-  ngAfterViewInit(): void {
-    this.drawerService.setSidenav(this.sidenav);
-    this.sidenav.close();
-  }
+  // ngAfterViewInit(): void {
+  //   this.drawerService.setSidenav(this.sidenav);
+  //   this.sidenav.close();
+  // }
   ngOnDestroy() {
     localStorage.removeItem('ws');
     this.unsubscribeMe();

@@ -11,8 +11,8 @@ import store from 'src/app/4-Redux/store';
 export class HeaderComponent implements OnInit {
   @Input()
   public isDrawerOpen: boolean;
-  @Input()
-  public sidenav: MatSidenav;
+  // @Input()
+  // public sidenav: MatSidenav;
   @Input()
   public windowSize: number;
 
@@ -20,12 +20,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {}
   public openDrawer() {
-    this.sidenav.open();
+    // this.sidenav.open();
     this.isDrawerOpen = true;
     store.dispatch(setIsDrawerOpenAction(true));
   }
   public closeDrawer = (): void => {
-    this.sidenav.close();
+    // this.sidenav.close();
     this.isDrawerOpen = false;
     store.dispatch(setIsDrawerOpenAction(false));
   };

@@ -9,22 +9,18 @@
     <app-menu-links></app-menu-links>
   </div>
   <div *ngIf="windowSize < 2" class="side-nav-btn">
-    <button
-      *ngIf="!isDrawerOpen"
-      mat-button
-      class="small-mat-icon-button"
-      (click)="openDrawer()"
-    >
-      <mat-icon color="primary">menu</mat-icon>
-    </button>
-    <button
-      *ngIf="isDrawerOpen"
-      mat-button
-      class="small-mat-icon-button"
-      (click)="closeDrawer()"
-    >
-      <mat-icon color="primary">arrow_back</mat-icon>
-    </button>
+    <mat-accordion>
+      <mat-expansion-panel
+        (opened)="isDrawerOpen = true"
+        (closed)="isDrawerOpen = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon color="primary">menu</mat-icon>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <app-mobile-link-menu></app-mobile-link-menu> </mat-expansion-panel
+    ></mat-accordion>
   </div>
 </div>
 <!-- </div> -->
