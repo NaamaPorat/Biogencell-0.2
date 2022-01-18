@@ -1,48 +1,102 @@
 <div class="mobile-nav-container">
   <mat-accordion>
-    <a mat-button color="primary" routerLink="/home">Home</a>
-    <mat-expansion-panel
-      hideToggle
-      (opened)="isDrawerOpen = true"
-      (closed)="isDrawerOpen = false"
+    <a
+      mat-button
+      color="primary"
+      routerLink="/home"
+      (click)="accordion.closeAll()"
+      >Home</a
     >
+    <mat-expansion-panel hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title>
           <p class="red panel-title">About</p>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <a mat-button color="primary" routerLink="/company">Company</a>
-      <a mat-button color="primary" routerLink="/management">Management</a>
-      <a mat-button color="primary" routerLink="/board">Board Of Directors</a>
-      <a mat-button color="primary" routerLink="/experts">Expert Advisors</a>
-      <a mat-button color="primary" routerLink="/partners">Partners</a>
+      <a
+        mat-button
+        color="primary"
+        routerLink="/company"
+        (click)="accordion.closeAll()"
+        >Company</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/management"
+        (click)="accordion.closeAll()"
+        >Management</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/board"
+        (click)="accordion.closeAll()"
+        >Board Of Directors</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/experts"
+        (click)="accordion.closeAll()"
+        >Expert Advisors</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/partners"
+        (click)="accordion.closeAll()"
+        >Partners</a
+      >
     </mat-expansion-panel>
-    <mat-expansion-panel
-      hideToggle
-      (opened)="isDrawerOpen = true"
-      (closed)="isDrawerOpen = false"
-    >
+    <mat-expansion-panel hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title>
           <p class="red panel-title">Technology</p>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <a mat-button color="primary" routerLink="/solution">Our Solution</a>
-      <a mat-button color="primary" routerLink="/stem-cells">Stem Cells</a>
+      <a
+        mat-button
+        color="primary"
+        routerLink="/solution"
+        (click)="accordion.closeAll()"
+        >Our Solution</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/stem-cells"
+        (click)="accordion.closeAll()"
+        >Stem Cells</a
+      >
     </mat-expansion-panel>
-    <mat-expansion-panel
-      hideToggle
-      (opened)="isDrawerOpen = true"
-      (closed)="isDrawerOpen = false"
-    >
+    <mat-expansion-panel hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title>
           <p class="red panel-title">Media & News</p>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <a mat-button color="primary" routerLink="/media">Media</a>
-      <a mat-button color="primary" routerLink="/news">News</a>
+      <a
+        mat-button
+        color="primary"
+        routerLink="/media"
+        (click)="accordion.closeAll()"
+        >Media</a
+      >
+      <a
+        mat-button
+        color="primary"
+        routerLink="/news"
+        (click)="accordion.closeAll()"
+        >News</a
+      >
     </mat-expansion-panel>
-    <a mat-button color="primary" routerLink="/contact-us">Contact Us</a>
+    <a
+      mat-button
+      color="primary"
+      routerLink="/contact-us"
+      (click)="accordion.closeAll()"
+      >Contact Us</a
+    >
   </mat-accordion>
 </div>

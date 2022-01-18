@@ -17,11 +17,11 @@ export class MenuLinksComponent implements OnInit {
   public windowSize: number;
 
   ngOnInit(): void {}
-  public closeDrawer = (): void => {
-    if (this.windowSize < 2) {
-      this.sidenav.close();
-      this.isDrawerOpen = false;
-      store.dispatch(setIsDrawerOpenAction(false));
-    }
-  };
+  //   public closeDrawer = (): void => {
+  //     if (this.windowSize < 2) {
+  //       this.sidenav.close();
+  //       this.isDrawerOpen = false;
+  //       store.dispatch(setIsDrawerOpenAction(false));
+  //     }
+  //   };
 }

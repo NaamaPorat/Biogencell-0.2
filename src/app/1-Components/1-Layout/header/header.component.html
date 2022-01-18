@@ -10,11 +10,7 @@
   </div>
   <div *ngIf="windowSize < 2" class="side-nav-btn">
     <mat-accordion>
-      <mat-expansion-panel
-        hideToggle
-        (opened)="isDrawerOpen = true"
-        (closed)="isDrawerOpen = false"
-      >
+      <mat-expansion-panel hideToggle [expanded]="isDrawerOpen">
         <mat-expansion-panel-header>
           <mat-panel-title>
             <mat-icon color="primary">menu</mat-icon>
@@ -27,7 +23,9 @@
             </a>
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <app-mobile-link-menu></app-mobile-link-menu> </mat-expansion-panel
+        <app-mobile-link-menu
+          [accordion]="accordion"
+        ></app-mobile-link-menu> </mat-expansion-panel
     ></mat-accordion>
   </div>
 </div>

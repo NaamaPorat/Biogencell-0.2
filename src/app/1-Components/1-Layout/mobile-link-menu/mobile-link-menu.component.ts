@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MatAccordion } from '@angular/material/expansion';
 
 @Component({
   selector: 'app-mobile-link-menu',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobile-link-menu.component.css'],
 })
 export class MobileLinkMenuComponent implements OnInit {
-  public isDrawerOpen: boolean;
+  @Input()
+  public accordion: MatAccordion;
   constructor() {}
 
   ngOnInit(): void {}
