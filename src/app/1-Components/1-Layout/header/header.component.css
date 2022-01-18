@@ -22,6 +22,18 @@ a {
 
 img {
   max-width: 200px;
+  z-index: 1;
+}
+.side-nav-btn {
+  width: 100%;
+}
+.mat-expansion-panel-header-title,
+.mat-expansion-panel-header-description {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 16px;
+  align-items: center;
+  width: 100%;
 }
 ::ng-deep .specific-class > .mat-expansion-indicator:after,
 .mat-expansion-panel-header-description,
@@ -35,7 +47,7 @@ img {
   padding-bottom: 10px;
   line-height: 1.2;
   height: fit-content;
-  width: min-content;
+  width: 100%;
 }
 .mat-expansion-panel-header-description.mat-expanded,
 .mat-expansion-panel-header-description {
@@ -51,7 +63,8 @@ mat-expansion-panel-header {
   box-shadow: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: 100%;
 }
 
 /* window-size 0 */
@@ -59,20 +72,24 @@ mat-expansion-panel-header {
   .header-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
   }
   img {
-    width: 90%;
+    width: 80%;
     margin-left: 5%;
-    margin-right: 5%;
   }
 }
 /* window-size 1 */
 @media only screen and (min-width: 201px) {
   .header-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+  }
+  img {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 /* window-size 2 */

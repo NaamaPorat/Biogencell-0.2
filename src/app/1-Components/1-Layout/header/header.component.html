@@ -1,6 +1,6 @@
 <!-- <div [ngClass]="'ws-'+{windowSize}"> -->
 <div class="header-container">
-  <div>
+  <div *ngIf="windowSize >= 2">
     <a class="companyName" routerLink="/home">
       <img class="toolbar-logo" src="/assets/cleanLogo.png" alt="logo" />
     </a>
@@ -11,12 +11,20 @@
   <div *ngIf="windowSize < 2" class="side-nav-btn">
     <mat-accordion>
       <mat-expansion-panel
+        hideToggle
         (opened)="isDrawerOpen = true"
         (closed)="isDrawerOpen = false"
       >
         <mat-expansion-panel-header>
           <mat-panel-title>
             <mat-icon color="primary">menu</mat-icon>
+            <a class="companyName" routerLink="/home">
+              <img
+                class="toolbar-logo"
+                src="/assets/cleanLogo.png"
+                alt="logo"
+              />
+            </a>
           </mat-panel-title>
         </mat-expansion-panel-header>
         <app-mobile-link-menu></app-mobile-link-menu> </mat-expansion-panel

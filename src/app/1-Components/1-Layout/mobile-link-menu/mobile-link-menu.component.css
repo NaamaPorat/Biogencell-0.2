@@ -3,8 +3,14 @@ mat-accordion,
 ::ng-deep .mat-expansion-panel-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: min-content;
 }
+.mobile-nav-container {
+  margin-top: 10px;
+  margin-right: -10px;
+}
+
 ::ng-deep .mat-expansion-panel-body {
   margin-top: -10px;
   margin-bottom: -5px;
@@ -12,9 +18,9 @@ mat-accordion,
 mat-panel-title {
   width: max-content;
 }
-a {
-  margin-left: -5px;
-}
+/* a {
+  margin-right: 30px;
+} */
 
 ::ng-deep .specific-class > .mat-expansion-indicator:after,
 .mat-expansion-panel-header-description,
@@ -38,6 +44,7 @@ a {
 
 mat-expansion-panel,
 mat-expansion-panel-header {
+  margin-left: -3px;
   margin-top: -5px;
   margin-bottom: -5px;
 }
@@ -45,8 +52,23 @@ mat-expansion-panel-header {
   box-shadow: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .panel-title {
   font-weight: 600;
+}
+
+/* window-size 0 */
+@media only screen and (max-width: 200px) {
+  ::ng-deep .mat-expansion-panel-body {
+    margin-left: -20px;
+  }
+}
+/* window-size 1 */
+@media only screen and (min-width: 201px) {
+  img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
