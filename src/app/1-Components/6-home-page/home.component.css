@@ -193,6 +193,7 @@ button {
   }
   .home-card {
     width: 90vw;
+    max-width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;

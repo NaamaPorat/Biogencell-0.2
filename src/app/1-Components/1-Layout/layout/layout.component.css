@@ -23,7 +23,7 @@ mat-sidenav-container {
 /* window-size 1 */
 @media only screen and (min-width: 201px) {
   .main-layout-container {
-    margin-top: 55px;
+    margin-top: 65px;
     display: flex;
     flex-direction: row;
   }
