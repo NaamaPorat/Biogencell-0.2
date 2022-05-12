@@ -7,7 +7,7 @@ class NewsModel {
   public nGeneralLogos: boolean;
   public nDate: string;
   public nReadMore: boolean;
-  public nLink?: string;
+  public nLink?: { link: string; text: string | null }[];
 }
 
 export default NewsModel;

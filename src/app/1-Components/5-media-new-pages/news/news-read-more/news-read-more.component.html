@@ -7,12 +7,19 @@
     />
     <span class="nTitle-span">{{ artical.nTitle }}</span>
   </div>
+  <br />
   <div class="artical-read-more-main-container">
     <div class="artical-read-more-longDesc">
       <p *ngFor="let p of artical.nLongDesc">{{ p }}</p>
-      <p *ngIf="artical.nLink">
-        Read more about it <a [href]="artical.nLink">here</a>
-      </p>
+      <div *ngIf="artical.nLink">
+        <div *ngFor="let l of artical.nLink">
+          <p *ngIf="l.text">
+            {{ l.text }}
+            <a [href]="l.link">here</a>
+          </p>
+          <p *ngIf="!l.text">Read more about it <a [href]="l.link">here</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -8,9 +8,12 @@ artical1.nImageSrc = '/assets/logoWithSub.png';
 artical1.nLongDesc = [
   'BioGenCell’s clinical study PI, Dr. Mark Niven, a worldwide leader in the field of diabetes and the Director of the Endocrine and Diabetes Unit, incorporating the Bildirici Center for Diabetes Care and Research at Laniado Hospital, Israel, gave a scientific presentation of the company’s preliminary results at the 53rd annual meeting of the European Association for the Study of Diabetes, EASD held on the 11-15 of September in Lisbon, Portugal. The conference program can be seen on',
 ];
-artical1.nLink =
-  'https://www.easd.org/annual-meeting/easd-2017.html#section-scientific-programme';
-
+artical1.nLink = [
+  {
+    link: 'https://www.easd.org/annual-meeting/easd-2017.html#section-scientific-programme',
+    text: null,
+  },
+];
 artical1.nShortDesc =
   'BioGenCell’s clinical study PI, Dr. Mark Niven, a worldwide leader in the field of diabetes and the Director of the Endocrine and Diabetes Unit, incorporating the Bildirici Center for Diabetes';
 artical1.nReadMore = true;
@@ -40,7 +43,9 @@ artical3.nShortDesc =
 artical3.nLongDesc = [
   'BioGenCell and its colleagues wrote a full chapter for a peer-reviewed textbook which describes among things the method and rationale behind its clinical trial. The Scientific publication of the chapter ‘Cell Therapy for Vascular Diseases in Israel’ appears in the textbook ”Vascular Surgery, A Global Perspective”, edited by Alan Dardik.',
 ];
-artical3.nLink = ' http://www.springer.com/gp/book/9783319337432';
+artical3.nLink = [
+  { link: 'http://www.springer.com/gp/book/9783319337432', text: null },
+];
 artical3.nReadMore = true;
 artical3.nUrl = 3;
 
@@ -208,7 +213,12 @@ artical15.nLongDesc = [
   'Every year the Global Entrepreneurship Week brings together young entrepreneurs, experienced founders, investors and government agencies over the course of one activity-packed week. The result is exciting new ideas and partnerships, bold ventures, and funding for next steps.',
   'BioGenCell is proud to be part of GEN Israel’s goal to advance startup nations and thus accelerate innovation worldwide.',
 ];
-artical15.nLink = 'https://www.eventbrite.com/e/2020–tickets-127600347073';
+artical15.nLink = [
+  {
+    link: 'https://www.eventbrite.com/e/2020–tickets-127600347073',
+    text: null,
+  },
+];
 artical15.nReadMore = true;
 artical15.nUrl = 15;
 
@@ -223,8 +233,12 @@ artical16.nLongDesc = [
   'BioGenCell is proud to take part in changing the face of leadership to advance the biotechnology industry in Israel. ',
   'An executive meeting including a fascinating lecture by Nili Goldfein was held at Dr. Porat’s home.',
 ];
-artical16.nLink =
-  'https://www.linkedin.com/posts/gevayelet_healthcare-medtech-biomedical-activity-6733641740063961088-S0EH';
+artical16.nLink = [
+  {
+    link: 'https://www.linkedin.com/posts/gevayelet_healthcare-medtech-biomedical-activity-6733641740063961088-S0EH',
+    text: null,
+  },
+];
 artical16.nReadMore = true;
 artical16.nUrl = 16;
 
@@ -239,9 +253,12 @@ artical17.nLongDesc = [
   'BioGenCell Ltd., a clinical-stage biopharmaceutical company dedicated to the development of regenerative therapies, announced today that the U.S. Food and Drug Administration (FDA) has approved the Investigational New Drug (IND) application for its lead product, in the treatment of patients diagnosed with critical limb ischemia (CLI). ',
   'This approved trial design will be a double blinded, placebo-controlled, phase II trial investigating the safety and potential efficacy of its new cell-derived product for the treatment of CLI, a progressive incurable life-threatening disease caused by hyperlipidemia, diabetes and smoking.',
 ];
-artical17.nLink =
-  'https://www.linkedin.com/posts/biogencell-ltd_biogencell-ltd-announces-fda-approval-activity-6763124711674142720-QBPx';
-
+artical17.nLink = [
+  {
+    link: 'https://www.linkedin.com/posts/biogencell-ltd_biogencell-ltd-announces-fda-approval-activity-6763124711674142720-QBPx',
+    text: null,
+  },
+];
 artical17.nReadMore = true;
 artical17.nUrl = 17;
 
@@ -257,7 +274,10 @@ artical18.nLongDesc = [
   'Netanya, Israel — BioGenCell, an Israel-based pioneering clinical stage biotechnology company dedicated to using a patient’s own blood to help alleviate microvascular diseases, is pleased to announce that it has appointed David Raab as Executive Chairman of its Board of Directors and Nissim Darvish, MD, PhD, as an active Director. Mr. Raab has 35 years in strategic/management consulting and executive management, with extensive experience in the U.S. healthcare industry. Dr. Darvish is a veteran of the life science industry, with experience in medical technology development, corporate leadership and investment management. Most recently he was Senior Managing Director of Orbimed Israel.',
   'of legs of critically ill diabetes and other patients. I am honored to have been asked to serve as chairman and assist in BioGenCell’s development during this pivotal period,” said Mr. Raab. Dr. Darvish adds, “BioGenCell’s initial clinical data suggest that it can prevent leg amputation due to CLI and all that that implies. I am looking forward advancing this unique treatment to the benefit of the CLI patients.” As BioGenCell CEO Dr. Yael Porat explains, “BioGenCell’s breakthrough platform has yielded positive outcomes in several people, even after years of damage and other treatments have failed. Our platform provides safe and efficient production of personalized cell therapy from the patient’s own blood, enabling physicians to treat patients in as little as a day to regenerate blood flow to damaged tissue.”',
   'BioGenCell is located at and has a strategic partnership with Laniado Hospital in Netanya, Israel. BioGenCell offers a patient- and clinician-centered platform that takes a standard blood draw in an outpatient setting with no need for pre-treatment, anaesthesia, or hospitalization. Its patented, 24-hour process is rapid, biologically efficient, and employs a common/unified algorithm to create personalized medicine. Treatment requires only a single injection session in an outpatient setting and appears to have long-lasting effect.',
-  '<p>For more information, contact: </br>David Raab, BioGenCell, Executive Chairman, David.raab@biogencell.net, +972.54.493.0700 </br>Dr. Yael Porat, BioGenCell CEO, at yael.porat@biogencell.net, +972.52.367.9969</p>',
+  '',
+  'For more information, contact:',
+  'David Raab, BioGenCell, Executive Chairman, David.raab@biogencell.net, +972.54.493.0700',
+  'Dr. Yael Porat, BioGenCell CEO, at yael.porat@biogencell.net, +972.52.367.9969',
 ];
 artical18.nReadMore = true;
 artical18.nUrl = 18;
@@ -279,6 +299,41 @@ artical19.nLongDesc = [
 artical19.nReadMore = true;
 artical19.nUrl = 19;
 
+export const artical20 = new NewsModel();
+artical20.nDate = '9/5/2022';
+const title =
+  'BioGenCell raises $16 million Seed round led by Marius Nacht for microvascular diseases treatment';
+artical20.nTitle = title.toUpperCase();
+artical20.nGeneralLogos = false;
+artical20.nImageSrc = '/assets/articals/artical20.jpg';
+artical20.nShortDesc =
+  'The Israeli startup uses stem cells from the patient’s own blood to treat microvascular diseases and is aiming to develop products that may be usable to restore tissues damaged by diabetes, kidney failure, pulmonary hypertension, heart failure, stroke, blindness, and more';
+artical20.nLongDesc = [
+  'The Israeli startup uses stem cells from the patient’s own blood to treat microvascular diseases and is aiming to develop products that may be usable to restore tissues damaged by diabetes, kidney failure, pulmonary hypertension, heart failure, stroke, blindness, and more',
+  'Read more obout it in the following links:',
+  '',
+];
+artical20.nLink = [
+  {
+    link: 'https://www.calcalistech.com/ctechnews/article/sywu8eil5',
+    text: 'Read from Calcalist news paper',
+  },
+  {
+    link: 'https://www.calcalist.co.il/calcalistech/article/sjnfshiu5',
+    text: 'Read from Calcalist news paper, hebrew',
+  },
+  {
+    link: 'https://www.bizportal.co.il/biomed/news/article/804374',
+    text: 'Read from Bizportal news paper',
+  },
+  {
+    link: 'https://www.israelhayom.com/2022/05/10/biogencell-completes-16-million-seed-round-gears-for-phase-2-trial/',
+    text: 'Read from Israel hayom news paper',
+  },
+];
+artical20.nReadMore = true;
+artical20.nUrl = 20;
+
 export const articalList = [
   artical1,
   artical2,
@@ -299,6 +354,7 @@ export const articalList = [
   artical17,
   artical18,
   artical19,
+  artical20,
 ];
 
 export function getArtical(url: number): NewsModel | null | undefined {
