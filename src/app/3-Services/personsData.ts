@@ -110,7 +110,7 @@ nadavChen.pUrlId = 'nadav-chen';
 nadavChen.pName = 'Nadav Chen';
 // nadav.pTitle = '';
 // nadav.pSecondTitle = '';
-nadavChen.pSubTitle = 'Board Member';
+nadavChen.pSubTitle = 'Observer';
 nadavChen.pShortDesc =
   'CEO of Laniado Hospital at Sanz Medical Center, Netanya, Israel';
 nadavChen.pLongDesc = [
