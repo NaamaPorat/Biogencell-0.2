@@ -32,6 +32,7 @@
 ::ng-deep .mat-expansion-panel-body {
   font-size: small;
   line-height: 1.5;
+  width: 85%;
 }
 
 mat-expansion-panel,
