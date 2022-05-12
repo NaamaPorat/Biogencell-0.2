@@ -266,6 +266,23 @@ michaelFrogel.pLongDesc = [
 ];
 michaelFrogel.pImageSrc = '/assets/profilePics/MF.jpg';
 
+export const uriYaron = new PersonModel();
+uriYaron.pUrlId = 'uri-yaron';
+
+uriYaron.pName = 'Uri Yaron';
+// michaelF.pTitle = '';
+uriYaron.pSecondTitle = 'Ph.D';
+// michaelF.pSubTitle = '';
+uriYaron.pShortDesc = '25+ years in HealthTech and Life Sciences investment';
+uriYaron.pLongDesc = [
+  'Dr. Yaron is a HealthTech and Life Sciences investment executive who serves on multiple Boards. In his previous role he served as the WW President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies. Uri joined BWI in 1996, a year prior to its acquisition by J&J. BWI is the fastest growing Company in the Medtech Sector of J&J, driving more than 2/3 of the Sector’s growth for the last few years, and consistently taking share from competition for over a decade. During Uri’s tenure as WW President the BWI business has grown from $2B in 2017 to over $3.6B in 2021.',
+  'Prior to his WW President role, Uri has held several positions of increasing responsibilities in R&D, Business Development and General Management at Biosense Webster, Cordis, Cerenovus, Mentor, Acclarent, ASP & Sterilmed.',
+  'Dr. Yaron is known as a strategic leader who established outstanding relationships with both customers and external partners, creating significant value for J&J in the Cardiovascular space. He has a proven track record of driving innovation and growth and adapting the company’s business model to a rapidly changing and increasingly challenging external environment. Under Uri’s Leadership, BWI teams have won 5 Johnson Medals, the most prestigious award given for research & development excellence within J&J.',
+  'Dr. Yaron a PhD in Physics from the Hebrew University of Jerusalem, summa cum laude. Prior to joining BWI, Uri was a Member of the Technical Staff at the Micro-Physics Research Lab of AT&T Bell Laboratories. He is a co-author of over 40 peer-reviewed papers, including papers in Nature and Physical Review Letters, and the co-inventor of over 10 US patents.',
+  'Dr. Yaron serves on the Board of Directors of the Western States of the American Heart Association. He was the Chairperson of the 2020 LA Heart & Stroke Walk. In addition, Uri teaches an MBA course at the BioMed MBA Program of the Hebrew University, and coaches senior combat officers of the Israeli Defense Forces.',
+];
+uriYaron.pImageSrc = '/assets/profilePics/UY.png';
+
 export const personsDataList: PersonModel[] = [
   yaelPorat,
   michaelBelkin,
@@ -285,6 +302,7 @@ export const personsDataList: PersonModel[] = [
   markJNiven,
   louisShenkman,
   michaelFrogel,
+  uriYaron,
 ];
 
 export function getPerson(urlName: string): PersonModel | null | undefined {

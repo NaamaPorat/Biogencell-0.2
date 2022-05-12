@@ -6,6 +6,7 @@ import {
   nadavChen,
   eyalPeleg,
   zeevMilbauer,
+  uriYaron,
 } from '../../../3-Services/personsData';
 
 @Component({
@@ -21,5 +22,6 @@ export class BoardComponent implements OnInit {
   public nadavChen = nadavChen;
   public eyalPeleg = eyalPeleg;
   public zeevMilbauer = zeevMilbauer;
+  public uriYaron = uriYaron;
   ngOnInit(): void {}
 }
