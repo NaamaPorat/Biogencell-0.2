@@ -340,14 +340,14 @@ artical20.nLink = [
   {
     link: 'https://www.calcalist.co.il/calcalistech/article/sjnfshiu5',
     text: [
-      '"מריוס נכט משקיע בביוג’נסל 16 מ’ דולר להצלת חולים מכריתת גפיים." ',
+      '".מריוס נכט משקיע בביוג’נסל 16 מ’ דולר להצלת חולים מכריתת גפיים" ',
       'Read from Calcalist',
     ],
   },
   {
     link: 'https://www.bizportal.co.il/biomed/news/article/804374',
     text: [
-      '"ביוג’נסל גייסה 16 מיליון דולר בהובלת מריוס נכט" ',
+      '".ביוג’נסל גייסה 16 מיליון דולר בהובלת מריוס נכט" ',
       'Read from Bizportal',
     ],
   },
