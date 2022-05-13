@@ -274,7 +274,7 @@ uriYaron.pTitle = 'Ph.D';
 uriYaron.pSecondTitle = 'Dr.';
 uriYaron.pSubTitle = 'Board member';
 uriYaron.pShortDesc =
-  '25+ years in HealthTech and Life Sciences investment formerly served as the world wide President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies.';
+  '25+ years in HealthTech and Life Sciences investment formerly served as the worldwide President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies.';
 uriYaron.pLongDesc = [
   'Dr. Yaron is a HealthTech and Life Sciences investment executive who serves on multiple Boards. In his previous role he served as the WW President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies. Uri joined BWI in 1996, a year prior to its acquisition by J&J. BWI is the fastest growing Company in the Medtech Sector of J&J, driving more than 2/3 of the Sector’s growth for the last few years, and consistently taking share from competition for over a decade. During Uri’s tenure as WW President the BWI business has grown from $2B in 2017 to over $3.6B in 2021.',
   'Prior to his WW President role, Uri has held several positions of increasing responsibilities in R&D, Business Development and General Management at Biosense Webster, Cordis, Cerenovus, Mentor, Acclarent, ASP & Sterilmed.',

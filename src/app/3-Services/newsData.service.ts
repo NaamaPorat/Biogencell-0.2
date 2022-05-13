@@ -320,35 +320,35 @@ artical20.nLink = [
     link: 'https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-706214',
     text: [
       '"BioGenCell raises $16m. for chronic disease treatment."',
-      'Read from Jerusalem Post news paper',
+      'Read from Jerusalem Post',
     ],
   },
   {
     link: 'https://www.calcalistech.com/ctechnews/article/sywu8eil5',
     text: [
       '"BioGenCell raises $16 million Seed round led by Marius Nacht for microvascular diseases treatment."',
-      'Read from Calcalist news paper',
+      'Read from Calcalist',
     ],
   },
   {
     link: 'https://www.israelhayom.com/2022/05/10/biogencell-completes-16-million-seed-round-gears-for-phase-2-trial/',
     text: [
       '"BioGenCell completes $16 million seed round, gears for Phase 2 trial." ',
-      'Read from Israel hayom news paper',
+      'Read from Israel Hayom',
     ],
   },
   {
     link: 'https://www.calcalist.co.il/calcalistech/article/sjnfshiu5',
     text: [
       '"מריוס נכט משקיע בביוג’נסל 16 מ’ דולר להצלת חולים מכריתת גפיים." ',
-      'Read from Calcalist news paper, hebrew',
+      'Read from Calcalist',
     ],
   },
   {
     link: 'https://www.bizportal.co.il/biomed/news/article/804374',
     text: [
       '"ביוג’נסל גייסה 16 מיליון דולר בהובלת מריוס נכט" ',
-      'Read from Bizportal news paper',
+      'Read from Bizportal',
     ],
   },
 ];
