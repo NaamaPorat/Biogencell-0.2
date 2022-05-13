@@ -9,6 +9,7 @@ import {
   michaelFrogel,
   louisShenkman,
   markJNiven,
+  oritKollet,
 } from '../../../3-Services/personsData';
 
 @Component({
@@ -23,7 +24,7 @@ export class AdvisorsComponent implements OnInit {
   public martinGrajower = martinGrajower;
   public aaronCiechanover = aaronCiechanover;
   public shlomoBulvik = shlomoBulvik;
-  public bruceBachenheimer = bruceBachenheimer;
+  public oritKollet = oritKollet;
   public michaelFrogel = michaelFrogel;
   public louisShenkman = louisShenkman;
   public markJNiven = markJNiven;

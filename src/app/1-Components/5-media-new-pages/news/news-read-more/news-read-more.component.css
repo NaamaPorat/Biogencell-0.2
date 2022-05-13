@@ -71,6 +71,10 @@ a:active {
   .artical-read-more-longDesc {
     font-size: small;
   }
+  .a-pic-title {
+    margin-top: -20px;
+    font-size: smaller;
+  }
 }
 
 @media only screen and (min-width: 769px) {

@@ -306,29 +306,50 @@ const title =
 artical20.nTitle = title.toUpperCase();
 artical20.nGeneralLogos = false;
 artical20.nImageSrc = '/assets/articals/artical20.jpg';
+artical20.nPicTitle = 'Marius Nacht';
 artical20.nShortDesc =
   'The Israeli startup uses stem cells from the patient’s own blood to treat microvascular diseases and is aiming to develop products that may be usable to restore tissues damaged by diabetes, kidney failure, pulmonary hypertension, heart failure, stroke, blindness, and more';
 artical20.nLongDesc = [
   'The Israeli startup uses stem cells from the patient’s own blood to treat microvascular diseases and is aiming to develop products that may be usable to restore tissues damaged by diabetes, kidney failure, pulmonary hypertension, heart failure, stroke, blindness, and more',
+  'BioGenCell has completed a $16 million Seed round led by private investor Marius Nacht. BioGenCell, which was founded by Dr. Yael Porat and Prof. Michael Belkin, develops technology for using stem cells from the patient’s own blood to treat microvascular diseases.',
   'Read more obout it in the following links:',
   '',
 ];
 artical20.nLink = [
   {
+    link: 'https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-706214',
+    text: [
+      '"BioGenCell raises $16m. for chronic disease treatment."',
+      'Read from Jerusalem Post news paper',
+    ],
+  },
+  {
     link: 'https://www.calcalistech.com/ctechnews/article/sywu8eil5',
-    text: 'Read from Calcalist news paper',
-  },
-  {
-    link: 'https://www.calcalist.co.il/calcalistech/article/sjnfshiu5',
-    text: 'Read from Calcalist news paper, hebrew',
-  },
-  {
-    link: 'https://www.bizportal.co.il/biomed/news/article/804374',
-    text: 'Read from Bizportal news paper',
+    text: [
+      '"BioGenCell raises $16 million Seed round led by Marius Nacht for microvascular diseases treatment."',
+      'Read from Calcalist news paper',
+    ],
   },
   {
     link: 'https://www.israelhayom.com/2022/05/10/biogencell-completes-16-million-seed-round-gears-for-phase-2-trial/',
-    text: 'Read from Israel hayom news paper',
+    text: [
+      '"BioGenCell completes $16 million seed round, gears for Phase 2 trial." ',
+      'Read from Israel hayom news paper',
+    ],
+  },
+  {
+    link: 'https://www.calcalist.co.il/calcalistech/article/sjnfshiu5',
+    text: [
+      '"מריוס נכט משקיע בביוג’נסל 16 מ’ דולר להצלת חולים מכריתת גפיים." ',
+      'Read from Calcalist news paper, hebrew',
+    ],
+  },
+  {
+    link: 'https://www.bizportal.co.il/biomed/news/article/804374',
+    text: [
+      '"ביוג’נסל גייסה 16 מיליון דולר בהובלת מריוס נכט" ',
+      'Read from Bizportal news paper',
+    ],
   },
 ];
 artical20.nReadMore = true;

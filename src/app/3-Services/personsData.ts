@@ -274,7 +274,7 @@ uriYaron.pTitle = 'Ph.D';
 uriYaron.pSecondTitle = 'Dr.';
 uriYaron.pSubTitle = 'Board member';
 uriYaron.pShortDesc =
-  '25+ years in HealthTech and Life Sciences investment formerly served as the WW President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies.';
+  '25+ years in HealthTech and Life Sciences investment formerly served as the world wide President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies.';
 uriYaron.pLongDesc = [
   'Dr. Yaron is a HealthTech and Life Sciences investment executive who serves on multiple Boards. In his previous role he served as the WW President of Biosense Webster (BWI), a member of the Johnson & Johnson Family of Companies. Uri joined BWI in 1996, a year prior to its acquisition by J&J. BWI is the fastest growing Company in the Medtech Sector of J&J, driving more than 2/3 of the Sector’s growth for the last few years, and consistently taking share from competition for over a decade. During Uri’s tenure as WW President the BWI business has grown from $2B in 2017 to over $3.6B in 2021.',
   'Prior to his WW President role, Uri has held several positions of increasing responsibilities in R&D, Business Development and General Management at Biosense Webster, Cordis, Cerenovus, Mentor, Acclarent, ASP & Sterilmed.',
@@ -283,6 +283,19 @@ uriYaron.pLongDesc = [
   'Dr. Yaron serves on the Board of Directors of the Western States of the American Heart Association. He was the Chairperson of the 2020 LA Heart & Stroke Walk. In addition, Uri teaches an MBA course at the BioMed MBA Program of the Hebrew University, and coaches senior combat officers of the Israeli Defense Forces.',
 ];
 uriYaron.pImageSrc = '/assets/profilePics/UY.png';
+
+export const oritKollet = new PersonModel();
+oritKollet.pUrlId = 'orit-kollet';
+
+oritKollet.pName = 'Uri Yaron';
+oritKollet.pTitle = 'Ph.D';
+oritKollet.pSecondTitle = 'Dr.';
+// oritKollet.pSubTitle = 'Board member';
+oritKollet.pShortDesc = 'An expert in stem cells reaserch';
+oritKollet.pLongDesc = [
+  'Dr. Orit Kollet received her BSc from Bar Ilan University (1992), MSc from Tel Aviv University (1995), and a PhD degree from the Weizmann Institute of Science (2000) in the department of Immunology under the mentorship of Prof. Tsvee Lapidot. Her research focused first on the development of pre-clinical and functional models for research of mechanisms regulating homing and mobilization of blood-forming stem cells. As a staff scientist with prof. Lapidot, Dr. Kollet extended her research interests to include mechanisms of stress-induced mobilization of stem cells from the bone marrow to the blood and injured liver. Studies of microenvironmental regulators of stem cell function in steady-state and injury included elucidating the roles of bone degrading osteoclasts, bone marrow blood vessels, and the light/dark daily cycles, which all control stem cell activity in the bone marrow and blood circulation. Dr. Kollet has published more than 70 publications in peer-reviewed scientific journals. Currently, Dr. Kollet is serving as an academic scientific consultant to Prof. Tvee Lapidot in the field of hematopoietic stem cells biology, and Prof. Irit Sagi in the field of extracellular matrix remodeling in health and disease, both from the department of Immunology and Regenerative Biology, of Weizmann Institute of Science.',
+];
+oritKollet.pImageSrc = '/assets/profilePics/OK.png';
 
 export const personsDataList: PersonModel[] = [
   yaelPorat,
@@ -304,6 +317,7 @@ export const personsDataList: PersonModel[] = [
   louisShenkman,
   michaelFrogel,
   uriYaron,
+  oritKollet,
 ];
 
 export function getPerson(urlName: string): PersonModel | null | undefined {

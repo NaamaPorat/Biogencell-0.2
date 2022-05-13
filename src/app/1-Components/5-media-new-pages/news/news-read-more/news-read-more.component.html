@@ -5,6 +5,9 @@
       class="artical-read-more-image"
       [src]="artical.nImageSrc"
     />
+    <span *ngIf="artical.nPicTitle" class="a-pic-title">{{
+      artical.nPicTitle
+    }}</span>
     <span class="nTitle-span">{{ artical.nTitle }}</span>
   </div>
   <br />
@@ -13,8 +16,14 @@
       <p *ngFor="let p of artical.nLongDesc">{{ p }}</p>
       <div *ngIf="artical.nLink">
         <div *ngFor="let l of artical.nLink">
-          <p *ngIf="l.text">
-            {{ l.text }}
+          <p *ngIf="l.text && l.text.length === 1">
+            {{ l.text[0] }}
+            <a [href]="l.link">here</a>
+          </p>
+          <p *ngIf="l.text && l.text.length > 1">
+            {{ l.text[0] }}
+            <br />
+            {{ l.text[1] }}
             <a [href]="l.link">here</a>
           </p>
           <p *ngIf="!l.text">Read more about it <a [href]="l.link">here</a></p>
