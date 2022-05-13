@@ -42,12 +42,12 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: gray;
+  color: #383838;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #b37e7e;
+  text-decoration: underline;
+  color: #be212f;
 }
 
 a:active {
