@@ -3,7 +3,7 @@ import PersonModel from '../2-models/person.model';
 export const yaelPorat = new PersonModel();
 yaelPorat.pUrlId = 'yael-porat';
 yaelPorat.pName = 'Yael Porat';
-yaelPorat.pTitle = 'PHD';
+yaelPorat.pTitle = 'Ph.D';
 // yael.pSecondTitle = '';
 yaelPorat.pSubTitle = 'Founder & CEO';
 yaelPorat.pShortDesc =
@@ -94,7 +94,7 @@ export const nissimDarvish = new PersonModel();
 nissimDarvish.pUrlId = 'nissim-darvish';
 
 nissimDarvish.pName = 'Nissim Darvish';
-nissimDarvish.pTitle = 'M.D., PHD';
+nissimDarvish.pTitle = 'M.D., Ph.D';
 // nissim.pSecondTitle = '';
 nissimDarvish.pSubTitle = 'Active Board Member';
 nissimDarvish.pShortDesc =
