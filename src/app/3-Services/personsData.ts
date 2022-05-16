@@ -3,7 +3,7 @@ import PersonModel from '../2-models/person.model';
 export const yaelPorat = new PersonModel();
 yaelPorat.pUrlId = 'yael-porat';
 yaelPorat.pName = 'Yael Porat';
-yaelPorat.pTitle = 'Ph.D';
+yaelPorat.pTitle = 'PhD';
 // yael.pSecondTitle = '';
 yaelPorat.pSubTitle = 'Founder & CEO';
 yaelPorat.pShortDesc =
@@ -94,13 +94,13 @@ export const nissimDarvish = new PersonModel();
 nissimDarvish.pUrlId = 'nissim-darvish';
 
 nissimDarvish.pName = 'Nissim Darvish';
-nissimDarvish.pTitle = 'M.D., Ph.D';
+nissimDarvish.pTitle = 'M.D., PhD';
 // nissim.pSecondTitle = '';
 nissimDarvish.pSubTitle = 'Active Board Member';
 nissimDarvish.pShortDesc =
   'Veteran of the life science industry, with experience in medical technology development, corporate leadership and investment management. Formerly, Sr. Managing Director of Orbimed Israel and General Partner at Pitango.';
 nissimDarvish.pLongDesc = [
-  'Nissim Darvish, M.D., Ph.D., is a Venture Partner  at OrbiMed Advisors. Nissim is a veteran of the lifescience industry, with 25 years of experience covering medical technology development, corporate leadership and investment management. Nissim before coming Venture Partner he was a senior managing director at OrbiMed heading the OrbiMed Israel Office, raising over $500m as part of the OrbiMed Israel funds.  Before that Nissim spent eight years with Pitango, where he was a General Partner managing life sciences investments. Previously, Nissim was the founder and CEO of Impulse Dynamics, which he led for six years, culminating in a $250 million realization event. Nissim obtained his M.D. and Ph.D. in Biophysics and Physiology from the Technion in Israel, and subsequently conducted his postdoctoral research at the N.I.H. He has published over 100 patents, authored over 20 publications and received eight prizes and awards. He currently serve as Chairman and Director of Biotech, Medttech and Digital health companies globally.',
+  'Nissim Darvish, M.D., PhD., is a Venture Partner  at OrbiMed Advisors. Nissim is a veteran of the lifescience industry, with 25 years of experience covering medical technology development, corporate leadership and investment management. Nissim before coming Venture Partner he was a senior managing director at OrbiMed heading the OrbiMed Israel Office, raising over $500m as part of the OrbiMed Israel funds.  Before that Nissim spent eight years with Pitango, where he was a General Partner managing life sciences investments. Previously, Nissim was the founder and CEO of Impulse Dynamics, which he led for six years, culminating in a $250 million realization event. Nissim obtained his M.D. and PhD. in Biophysics and Physiology from the Technion in Israel, and subsequently conducted his postdoctoral research at the N.I.H. He has published over 100 patents, authored over 20 publications and received eight prizes and awards. He currently serve as Chairman and Director of Biotech, Medttech and Digital health companies globally.',
 ];
 nissimDarvish.pImageSrc = '/assets/profilePics/ND.png';
 
@@ -270,7 +270,7 @@ export const uriYaron = new PersonModel();
 uriYaron.pUrlId = 'uri-yaron';
 
 uriYaron.pName = 'Uri Yaron';
-uriYaron.pTitle = 'Ph.D';
+uriYaron.pTitle = 'PhD';
 uriYaron.pSecondTitle = 'Dr.';
 uriYaron.pSubTitle = 'Board member';
 uriYaron.pShortDesc =
@@ -288,7 +288,7 @@ export const oritKollet = new PersonModel();
 oritKollet.pUrlId = 'orit-kollet';
 
 oritKollet.pName = 'Orit Kollet';
-oritKollet.pTitle = 'Ph.D';
+oritKollet.pTitle = 'PhD';
 oritKollet.pSecondTitle = 'Dr.';
 // oritKollet.pSubTitle = 'Board member';
 oritKollet.pShortDesc = 'An expert in stem cells reaserch';
