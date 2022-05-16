@@ -287,7 +287,7 @@ uriYaron.pImageSrc = '/assets/profilePics/UY.png';
 export const oritKollet = new PersonModel();
 oritKollet.pUrlId = 'orit-kollet';
 
-oritKollet.pName = 'Uri Yaron';
+oritKollet.pName = 'Orit Kollet';
 oritKollet.pTitle = 'Ph.D';
 oritKollet.pSecondTitle = 'Dr.';
 // oritKollet.pSubTitle = 'Board member';
